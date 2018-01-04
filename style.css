@@ -1,0 +1,18 @@
+/*
+
+Theme Name: Ducray
+Theme URI: http://ducray.com.pl
+Description: Motyw dla strony ducray.com.pl
+Author: aklekotka
+Author URI: http://itkom.pl
+Version: 0.5
+
+*/
+
+.wpinfo {
+	display: block;
+	min-height: 200px;
+	background: red;
+	color: white;
+	font-size: 1.5rem;
+}

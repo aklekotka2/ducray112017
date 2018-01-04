@@ -1,0 +1,619 @@
+/* header home slider */
+.home-slider .baner,
+.home-slider .pos-center{
+    width: 1200px;
+    height: 550px;
+	box-sizing: border-box;
+}
+
+.home-slider .baner .pos-center{
+    /*background: url('../img/top-gfx.jpg') repeat;*/
+    position: relative;
+	border: 1px solid #dddddd;
+}
+.caroufredsel_wrapper{
+	overflow: hidden;
+}
+
+#header.home-slider .baner .slides{
+    overflow: hidden;
+    height: 550px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+}
+.slides #demo li{
+	height: 550px;
+}
+.sy-pager{
+	position: absolute;
+	bottom: 0;
+	background: url('../img/slider-pagination-bg.png') no-repeat;
+	z-index: 99;
+	width: 162px;
+    height: 30px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -81px;
+}
+#header.home-slider .baner .slides .main-baner{
+    width: 1200px;
+	display: block;
+	height: 550px;
+    position: relative;
+	border: 1px solid red;
+	
+	/*background-image: linear-gradient(90deg, #F3F2F9 60%, #ffffff 60%, #ffffff 100%);*/
+	/*background-size: cover !important;*/
+}
+#header.home-slider .main-baner .pos-center{
+	width: 1198px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid #b1afba;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	        align-items: flex-end;
+	height: 548px;
+
+	
+	
+}
+
+
+
+#header.home-slider .main-baner .caption{
+    width: 340px;
+	margin-top: 1%;
+	float: right;
+	text-align: center;
+}
+#header.home-slider .main-baner .caption.img img{
+    
+}
+/*#header.home-slider .main-baner .caption.text{ 
+	background: transparent; 
+    width: 320px;
+    height: 226px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+	border: 1px solid blue;
+}*/
+#header.home-slider .main-baner .main-baner-desc{
+	background: rgba(255,255,255, 1);
+	height: 550px;
+	width: 340px;
+	margin-left: auto;
+}
+
+#header.home-slider .main-baner .caption,
+#header.home-slider .main-baner .caption a{
+	
+    
+}
+
+#header.home-slider .main-baner .caption h3{
+    font-size: 1.3rem;
+	/*line-height: 2.0rem;*/
+	font-weight: bold;
+	text-transform: uppercase;
+    margin-bottom: 1%;	    
+    margin-top: 1%;	    
+}
+#header.home-slider .main-baner .caption h3 img{
+    margin-bottom: 0.5%;	    
+}
+
+#header.home-slider .main-baner .caption p{
+    font-size: 1.4rem;
+    /*line-height: 1.9rem;*/
+    text-align: center;
+	color: #59556c;
+	margin-top: 15px;
+}
+#header.home-slider .main-baner .caption p span{
+	display: inline-block;
+	border-radius: 0px;
+	padding: 3px 10px;
+	margin: 10px auto 20px auto;
+}
+
+
+#header.home-slider .main-baner .caption a{
+
+    display: block;
+	width: 60px;
+	margin: 15px auto;
+	color: #ffffff;
+	background: #00b2d5;
+    border: 1px dashed #fff;
+    padding: 6px 16px;
+    text-transform: uppercase;   
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 9px rgba(60, 60, 60, 1);
+    -moz-box-shadow: 1px 1px 9px rgba(0, 0, 0, 1);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 1);
+	z-index: 99;
+
+}
+
+/*#header.home-slider .pos-center .main-baner img{
+    position: absolute;
+    right: 102px;
+    top: 0px;
+	border: 1px solid red;
+}*/
+
+#header.home-slider .pagination{
+    position: absolute;
+    width: 162px;
+    height: 30px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -81px;
+    background: url('../img/slider-pagination-bg.png') no-repeat;
+}
+
+#header.home-slider .pagination ul{
+    width: 157px;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+#header.home-slider .pagination ul li{
+    display: inline;
+    margin-right: 5px;
+}
+
+#header.home-slider .pagination ul li a{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #b1afba;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-indent: -999em;
+}
+
+#header.home-slider .pagination ul li.selected a,
+#header.home-slider .pagination ul li:hover a{
+    background: #59556c;
+}
+.keracnyl{
+	position: relative;
+}
+.keracnyl .inn{
+	background:  url('../content/baner1.jpg')   no-repeat;
+}
+.keracnyl h3{
+	color:  #00b2d5;
+	text-align: left;
+	padding-left: 20px;
+	
+}
+#header.home-slider .main-baner.keracnyl .keracnyl-info:before{
+	position: absolute;
+	top:0;
+	left: -20px;
+	content:url(../content/baner/keracnyl-250.png);
+}
+#header.home-slider .baner .slides .main-baner.keracnyl .main-baner-desc{
+	background: #ffffff url('../content/luk-keracnyl.jpg') top left   no-repeat;
+	background-size: contain;
+	width: 340px;
+	margin-left: auto;
+}
+#header.home-slider .main-baner.keracnyl .keracnyl-info{
+	float: right;
+	max-width: 280px;
+	margin-right: 10px;
+	position: relative;
+	z-index: 1;
+	line-height: 130%;
+	
+}
+#header.home-slider .main-baner.keracnyl .keracnyl-img{
+	float: left;
+	max-width: 94px;
+	border: 1px solid blue;
+	position: relative;
+	z-index: 99;
+	
+}
+#header.home-slider .main-baner.keracnyl p.more{
+	clear: both;
+	padding-top: 10px;	
+}
+#header.home-slider .main-baner.keracnyl p.add{
+
+	color: #666666;
+	width: 320px;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 120%;
+	clear: both;
+	
+}
+#header.home-slider .main-baner.keracnyl p.info{
+	color: #00b2d5;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: right;
+	margin-left: 60px;
+}
+#header.home-slider .main-baner.keracnyl p.info-skutecznosc{
+	color: #00b2d5;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: right;	
+	margin-left: 47px;
+}
+#header.home-slider .main-baner.keracnyl p.subtitle{
+	color: #004e75;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: right;	
+	
+}
+.keracnyl span{
+	color: #ffffff;	
+	background: #00b2d5;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.keracnyl span b{
+	font-size: 2.3rem;
+}
+.keracnyl span sup{
+	font-size: 2.3rem;
+	margin-left: 10px;
+}
+.keracnyl img.myrtacine{
+	
+
+	
+}
+/*#header.home-slider .main-baner.keracnyl p.info{
+	position: absolute; 
+	top: 160px;
+	right: 20px;
+	color: #00b2d5;
+	width: 220px;
+	font-weight: bold;
+	font-size: 1.5rem;
+	padding-left: 50px;
+	text-align: right;	
+}
+#header.home-slider .main-baner.keracnyl p.info-skutecznosc{
+	position: absolute; 
+	top: 220px;
+	right: 20px;
+	color: #00b2d5;
+	width: 230px;
+	font-weight: bold;
+	font-size: 1.5rem;
+	padding-left: 50px;
+	text-align: right;	
+}
+#header.home-slider .main-baner.keracnyl p.subtitle{
+	position: absolute; 
+	top: 100px;
+	right: 20px;
+	color: #004e75;
+	width: 190px;
+	font-weight: bold;
+	font-size: 1.5rem;
+	
+}
+#header.home-slider .main-baner.keracnyl p.add{
+	position: absolute; 
+	bottom: 5px;
+	right: 20px;
+	color: #666666;
+	width: 320px;
+	font-weight: bold;
+	font-size: 1rem;
+	
+}
+.keracnyl img[alt=""]{
+	position: absolute; 
+	top: 115px; 
+	right: 230px;
+	z-index: 99;
+}
+.keracnyl span{
+	color: #ffffff;	
+	background: #00b2d5;
+	text-transform: uppercase;
+	position: absolute; 
+	top: 0px;
+	right: 0px;
+	width: 210px;
+	font-weight: bold;
+}
+.keracnyl span b{
+	font-size: 2.3rem;
+}
+.keracnyl span sup{
+	font-size: 2.3rem;
+	margin-left: 10px;
+}
+.keracnyl img.myrtacine{
+	position: absolute; 
+	top: 80px;
+	right: 0px;
+	
+}
+#header.home-slider .main-baner.keracnyl a{
+	margin-top: 220px;
+	margin-right: 100px;
+}
+*/
+.dexyane .inn{
+	background:  url('../content/baner2.jpg')   no-repeat;
+}
+
+#header.home-slider .baner .slides .main-baner.dexyane .main-baner-desc{
+	padding-top: 30px;
+	background: #ffffff url('../content/luk-dexyane.jpg') top left   no-repeat;
+	background-size: contain;
+	width: 340px;
+	margin-left: auto;
+}
+.dexyane h3{
+	color: #02a6d9;
+	margin-left: 10px;
+}
+.dexyane h3.pink{
+	color: #e6649f;
+	line-height: 140%;
+}
+.dexyane h3.pink img{
+	display: block;
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+#header.home-slider .main-baner.dexyane .caption p{
+	margin-top: auto;
+	
+}
+#header.home-slider .main-baner.dexyane .caption p a{
+	
+
+}
+
+.anaphase .inn{
+	background:  url('../content/baner3.jpg')   no-repeat;
+}
+
+#header.home-slider .baner .slides .main-baner.anaphase .main-baner-desc{
+	padding-top: 20px;
+	padding-left: 7px;
+	background: #ffffff url('../content/luk-anaphase.jpg') top left   no-repeat;
+	background-size: contain;
+	width: 340px;
+	margin-left: auto;
+}
+#header.home-slider .main-baner.anaphase .caption h3{
+	color:  #f1581e;
+	font-size: 2.2rem;
+	line-height: 2.8rem;
+	padding-top: 20px;
+	text-shadow: 1px 1px 2px #dddddd;
+}
+.anaphase  span{
+	border: 2px solid  #f1581e;	
+	background: #fefefe;
+}
+#header.home-slider .main-baner.anaphase .caption  a{
+	margin-top: 35px;
+}
+
+.melascreen .inn{
+	background:  url('../content/baner4.jpg')   no-repeat;
+}
+#header.home-slider .main-baner.melascreen .caption h3{
+	padding-left: 5px;
+}
+
+#header.home-slider .baner .slides .main-baner.melascreen .main-baner-desc{
+	padding-top: 15px;
+	background: #ffffff url('../content/luk-melascreen.jpg') top left   no-repeat;
+	background-size: contain;
+	width: 340px;
+	margin-left: auto;
+}
+#header.home-slider .main-baner .melascreen .caption p{
+	margin-top: 5px;	
+}
+.melascreen .navy{
+	color: #ffffff;
+	background: #004e75;
+	display: inline-block;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.extradoux .inn{
+	background:  url('../content/baner5.jpg')   no-repeat;
+}
+#header.home-slider .baner .slides .main-baner.extradoux .main-baner-desc{
+	padding-top: 25px;
+	background: #ffffff url('../content/luk-extradoux.jpg') top left   no-repeat;
+	background-size: contain;
+	width: 340px;
+	margin-left: auto;
+}
+#header.home-slider .main-baner.extradoux  .caption h3{
+	color:  #269a44;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	font-weight: bold;
+}
+#header.home-slider .main-baner.extradoux  .caption h3 img{
+	display: block;
+	margin: 0 auto;
+}
+#header.home-slider .main-baner.extradoux  .caption h3 img{
+	margin-bottom: 15px;
+}
+#header.home-slider .main-baner.extradoux .caption  a{
+	margin-top: 40px;
+}
+@media all and (max-width: 1200px) {
+	.home-slider .baner,
+	#header .baner,
+	.home-slider .pos-center,
+	#header.home-slider .baner .slides{
+		width: 960px;
+		overflow: hidden;
+			
+	}
+
+	#header.home-slider .main-baner .pos-center{
+		width: 958px;	
+	}
+
+	#header.home-slider .baner .slides .main-baner {
+		width: 958px;
+		border: 1px solid red;
+	}
+
+}
+@media all and (max-width: 960px) {
+	/* strona główna - paginacja */
+	#header.home-slider .pagination {
+		position: static;
+		margin: 10px auto;
+		margin-bottom: 0;
+	}
+	.home-slider .baner,
+	#header .baner,
+	.home-slider .pos-center{
+		width: 100vw;
+		overflow: hidden;
+		height: 575px;
+	}
+	#header.home-slider .baner .slides{
+		width: 100vw;
+	}
+	#header.home-slider .baner .slides .main-baner .pos-center{
+		width: 100vw;
+		border-left: 0;
+		border-right: 0;
+				
+	}
+	#header.home-slider .baner .slides .main-baner {
+		width: 100vw;
+	}
+	#header.home-slider .baner .slides .main-baner .main-baner-desc{
+		height: 548px;
+		width: 340px;
+		margin-left: auto;
+	}
+	.keracnyl .inn{
+		width: 100vw;
+		background:  url('../content/baner1-768.jpg')   no-repeat;
+	}
+	.dexyane .inn{
+		width: 100vw;
+		background:  url('../content/baner2-768.jpg')   no-repeat;
+	}
+	.anaphase .inn{
+		width: 100vw;
+		background:  url('../content/baner3-768.jpg')   no-repeat;
+	}
+	.melascreen .inn{
+		width: 100vw;
+		background:  url('../content/baner4-768.jpg')   no-repeat;
+	}
+	.extradoux .inn{
+		width: 100vw;
+		background:  url('../content/baner5-768.jpg')   no-repeat;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.keracnyl .inn{
+		background:  url('../content/baner1-650.jpg')   no-repeat;
+	}
+	.dexyane .inn{
+		background:  url('../content/baner2-650.jpg')   no-repeat;
+	}
+	.anaphase .inn{
+		background:  url('../content/baner3-650.jpg')   no-repeat;
+	}
+	.melascreen .inn{
+		background:  url('../content/baner4-650.jpg')   no-repeat;
+	}
+	.extradoux .inn{
+		background:  url('../content/baner5-650.jpg')   no-repeat;
+	}
+
+}
+
+@media all and (max-width: 650px) {
+	.keracnyl .inn{
+		background-color:  rgba(0,179, 211, .5);
+		background-image: url('../content/baner1-450.jpg')   no-repeat;
+	}
+	.dexyane .inn{
+		background-image:  url('../content/baner2-450.jpg')   no-repeat;
+	}
+	.anaphase .inn{
+		background-image:  url('../content/baner3-450.jpg')   no-repeat;
+	}
+	.melascreen .inn{
+		background-image:  url('../content/baner4-450.jpg')   no-repeat;
+	}
+	.extradoux .inn{
+		background-image:  url('../content/baner5-450.jpg')   no-repeat;
+	}
+
+
+}
+
+@media all and (max-width: 450px) {
+	.keracnyl .inn{
+		
+		background-image: none;
+		background:  rgba(0,179, 211, .5);
+		
+		
+	}
+	.dexyane .inn{
+		background-image: none;
+		background-color:  rgba(0,169,228, .5);
+	}
+	.anaphase .inn{
+		background-image: none;
+		background:  rgba(243,86,33, .5);
+	}
+	.melascreen .inn{
+		background-image: none;
+		background: rgba(142,115,70, .5) ;
+	}
+	.extradoux .inn{
+		background-image: none;
+		background:  rgba(43,151,66 , .5);
+	}
+	
+
+	
+}
